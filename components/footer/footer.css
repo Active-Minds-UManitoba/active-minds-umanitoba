@@ -182,13 +182,13 @@ footer {
   transform: scale(1.2);
 }
 
-#discord {
+#podcast {
   color: #7289DA; /* Discord color */
   transition: color 0.3s, transform 0.3s;
 }
 
-#discord:hover {
-  color: #5A67D8; /* Darker Discord color on hover */
+#podcast:hover {
+  color: #5A67D8; /* Darker podcast color on hover */
   transform: scale(1.2);
 }
 
