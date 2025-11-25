@@ -213,5 +213,59 @@ const eventList = {
         description: `Join us on January 24th from 11:00 AM to 2:00 PM for a special event in support of Bell Let’s Talk Day! Enjoy different freebies and FREE Polaroid photos while supplies last. Location: First Floor, Fletcher Argue, opposite the Faculty of Arts Advising. Let’s spread positivity and support mental health together!`,
         type: 'event',
         externalLink: 'https://www.instagram.com/p/DFMbBH2M-BO/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==' // Update with the correct link if available
-    }
+    },
+    event19: {
+    date: '2025-02-25',
+    img: './events/newsletters/ednmc.jpg', // update to your actual thumbnail
+    title: 'Newsletter: February 2025 – Eating Disorder Awareness & Midterm Care',
+    description: `This issue focuses on National Eating Disorders Awareness Week (NEDAW) and breaks down what eating disorders are, common myths, warning signs, and how to support someone you care about with compassion and without judgment. It also shares gentle reminders and practical strategies for taking care of yourself during midterms, including rest, boundaries, and small everyday habits that protect your mental health.`,
+    type: 'newsletter',
+    externalLink: './events/newsletters/February newsletter _20250225_170005_0000.pdf'
+},
+
+event20: {
+    date: '2024-01-24',
+    img: './events/newsletters/gbld.jpg',
+    title: 'Newsletter: January 2024 – Global Belly Laugh Day',
+    description: `January’s edition is all about Global Belly Laugh Day and the power of laughter as a form of self-care. It explains how laughter affects the brain and body, why it feels so good, and offers fun, simple ways to add more humour into your day—especially during the winter months when things can feel heavy.`,
+    type: 'newsletter',
+    externalLink: './events/newsletters/January 2024 Newsletter.pdf'
+},
+
+event21: {
+    date: '2024-03-01',
+    img: './events/newsletters/tmh.jpg',
+    title: 'Newsletter: March 2024 – World Teen Mental Wellness Day & Therapy 101',
+    description: `This newsletter highlights World Teen Mental Wellness Day and talks about the unique challenges teens and young adults face today. It covers how to recognize when someone might be struggling, how to actively listen and support a friend, and introduces different types of therapy—plus information on how students can access counselling and therapy through their health and dental coverage.`,
+    type: 'newsletter',
+    externalLink: './events/newsletters/March 2024 Newsletter.pdf'
+},
+
+event22: {
+    date: '2024-10-15',
+    img: './events/newsletters/mhcc.webp',
+    title: 'Newsletter: October 2024 – World Mental Health Month & Campus Community',
+    description: `The October 2024 edition centres on World Mental Health Month and ADHD Awareness Month, while also welcoming readers into a new year with Active Minds. It introduces the executive team, shares upcoming events and campus resources, and talks about topics like peer pressure around substance use, building resilience, and finding supportive spaces in the university community.`,
+    type: 'newsletter',
+    externalLink: './events/newsletters/Newsletter_20241015_135712_0000.pdf'
+},
+
+event23: {
+    date: '2023-11-01',
+    img: './events/newsletters/naaw.jpg',
+    title: 'Newsletter: November 2023 – National Addictions Awareness Week',
+    description: `This edition focuses on National Addictions Awareness Week and explains addiction as a complex interaction between genetics, brain chemistry, environment, and mental health. It unpacks common myths, risk and protective factors, early signs of problematic substance use, and offers guidance on how to support loved ones, alongside campus and community resources.`,
+    type: 'newsletter',
+    externalLink: './events/newsletters/November 2023 Newsletter.pdf'
+},
+
+event24: {
+    date: '2023-10-01',
+    img: './events/newsletters/wmh.webp',
+    title: 'Newsletter: October 2023 – World Mental Health Month',
+    description: `October 2023’s newsletter is dedicated to World Mental Health Month and World Mental Health Day, emphasizing that mental health is a universal human right. It highlights several October observances—including ADHD Awareness Month, Domestic Violence Awareness Month, Dyslexia Awareness Month, and more—and explains why they matter, while pointing students toward supports and ways to stay engaged throughout the month.`,
+    type: 'newsletter',
+    externalLink: './events/newsletters/October 2023 Newsletter.pdf'
+},
+
 };
