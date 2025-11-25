@@ -15,7 +15,7 @@ const groupedEventList = sortedEventList.reduce((acc, event) => {
 function createEventCard(event) {
    let innerHTML = ``;
        innerHTML+=`<div class="card">
-           <a href="${event.externalLink}" target="blank"><div class="card__image"> <img src="${event.img}" alt="${event.alt? event.alt:""}" ></div></a>
+           <a href="${event.externalLink}" target="_blank"><div class="card__image"> <img src="${event.img}" alt="${event.alt? event.alt:""}" ></div></a>
             <div class="card__content">
                 <h3 class="card__type">${event.type}</h3>
                 <h2 class="card__title">${event.title}</h2>
@@ -59,6 +59,11 @@ function categorizeEvents(events) {
             categories.pastEvents.push(event);
         }
         categories.all.push(event);
+    });
+
+    // Sort each category by date descending (newest first)
+    Object.keys(categories).forEach(key => {
+        categories[key].sort((a, b) => new Date(b.date) - new Date(a.date));
     });
 
     return categories;
