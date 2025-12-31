@@ -267,5 +267,58 @@ event24: {
     type: 'newsletter',
     externalLink: './events/newsletters/October 2023 Newsletter.pdf'
 },
+event25: {
+    date: '2025-11-01',
+    img: './events/assets/movember.jpg', // src- https://www.facebook.com/torontopublichealth/posts/its-movember-the-hairiest-month-moustache-icon-of-the-year-throughout-this-month/952751396889915/
+    title: 'Movember: Supporting Men’s Mental Health',
+    description: `
+        <p>Supporting men’s mental health, one conversation at a time.</p>
+        <p>In recognition of <strong>#Movember</strong>, Active Minds hosted an event focused on raising awareness around men’s mental well-being and breaking stigma. Attendees received wellness bags designed to encourage self-care and open conversations.</p>
+        <p>Let’s continue to normalize talking about mental health and support one another—together.</p>
+    `,
+    type: 'initiatives',
+    externalLink: 'https://www.instagram.com/p/DFlWFQ6y2Xq/?igsh=MzV6eDlvNXAxZW1w'
+},
+
+event26: {
+    date: '2025-11-15',
+    img: './events/assets/get-involved.jpg', // src - https://www.christophertsmith.com/reflections/why-you-should-get-involved-in-things-outside-the-labwork
+    title: 'Get Involved with Active Minds at UM',
+    description: `
+        <p>Passionate about mental health and making a difference on campus?</p>
+        <p>Active Minds at the University of Manitoba is a <strong>student-led mental health club</strong> dedicated to building a community rooted in connection, support, and well-being.</p>
+        <p>Join us and help create a campus culture that values mental health—for yourself and for others. 💚</p>
+    `,
+    type: 'initiatives',
+    externalLink: 'https://www.instagram.com/p/DQSST1XErXd/?igsh=MXF5eDgybDV3dXhrZQ=='
+},
+
+event27: {
+    date: '2025-10-05',
+    img: './events/assets/mhaw.jpg', // src - https://www.bsd.ca/mental-illness-awareness-week-october-5-11-2025.23564
+    title: 'Mental Health Awareness Week 💚',
+    description: `
+        <p>Mental Health Awareness Week is a reminder to pause, reflect, and check in—with yourself and those around you.</p>
+        <p>This week encourages open conversations, compassion, and the understanding that <strong>it’s okay to ask for help</strong>.</p>
+        <p>Let’s continue to normalize mental health conversations and support one another.</p>
+    `,
+    type: 'initiatives',
+    externalLink: 'https://www.instagram.com/p/DPuTtFODlQ7/?igsh=MWE3eHR1aWJvMWU2eA=='
+},
+
+event28: {
+    date: '2025-09-01',
+    img: './events/assets/spam.jpg', // src - https://hub.jhu.edu/at-work/2025/09/10/national-suicide-prevention-month/
+    title: 'Suicide Prevention Month: You Are Not Alone',
+    description: `
+        <p><strong>Trigger Warning</strong></p>
+        <p>Suicide Prevention Month is a reminder that suicide is a public health issue—and that talking about it saves lives.</p>
+        <p>Spot the signs. Ask the question. Let people know they’re not alone.</p>
+        <p>If you’re struggling, reach out for support. You don’t have to carry this alone.</p>
+    `,
+    type: 'initiatives',
+    externalLink: 'https://www.instagram.com/p/DO_a9hgDkX_/?igsh=YzZ2bzd4ZGF5Z2ky'
+},
+
 
 };
