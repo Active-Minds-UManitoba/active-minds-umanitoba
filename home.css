@@ -442,7 +442,7 @@ h2 {
     margin-bottom: 10px;
     position: relative;
     top: -13.5px;
-    overflow: visible; /* Ensures that the text is cut off when outside the container */
+    overflow: hidden; /* Ensures that the text is cut off when outside the container */
     white-space: nowrap; /* Prevents text from wrapping */
     border-right: 2px solid black; /* Creates the blinking cursor effect */
     width: 0; /* Initial width of the text */
