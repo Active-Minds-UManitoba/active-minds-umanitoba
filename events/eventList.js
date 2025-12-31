@@ -268,7 +268,7 @@ event24: {
     externalLink: './events/newsletters/October 2023 Newsletter.pdf'
 },
 event25: {
-    date: '2024-11-01',
+    date: '2025-11-01',
     img: './events/assets/movember.jpg', // src- https://www.facebook.com/torontopublichealth/posts/its-movember-the-hairiest-month-moustache-icon-of-the-year-throughout-this-month/952751396889915/
     title: 'Movember: Supporting Men’s Mental Health',
     description: `
@@ -281,7 +281,7 @@ event25: {
 },
 
 event26: {
-    date: '2024-11-15',
+    date: '2025-11-15',
     img: './events/assets/get-involved.jpg', // src - https://www.christophertsmith.com/reflections/why-you-should-get-involved-in-things-outside-the-labwork
     title: 'Get Involved with Active Minds at UM',
     description: `
@@ -294,7 +294,7 @@ event26: {
 },
 
 event27: {
-    date: '2024-05-06',
+    date: '2025-10-05',
     img: './events/assets/mhaw.jpg', // src - https://www.bsd.ca/mental-illness-awareness-week-october-5-11-2025.23564
     title: 'Mental Health Awareness Week 💚',
     description: `
@@ -307,7 +307,7 @@ event27: {
 },
 
 event28: {
-    date: '2024-09-01',
+    date: '2025-09-01',
     img: './events/assets/spam.jpg', // src - https://hub.jhu.edu/at-work/2025/09/10/national-suicide-prevention-month/
     title: 'Suicide Prevention Month: You Are Not Alone',
     description: `
