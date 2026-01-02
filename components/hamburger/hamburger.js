@@ -22,22 +22,22 @@ document.querySelector(".navbar-container").innerHTML = `<div class="navbar">
                 </div>
               `;
 function menuOnClick() {
-    document.getElementById("menu-bar").classList.toggle("change");
-    document.querySelector(".navbar__menu").classList.toggle("change");
-    document.querySelector(".menu-bg").classList.toggle("change-bg");
+  document.getElementById("menu-bar").classList.toggle("change");
+  document.querySelector(".navbar__menu").classList.toggle("change");
+  document.querySelector(".menu-bg").classList.toggle("change-bg");
 }
 function highlightCurrentPage() {
-    const currentPage = window.location.pathname.split('/').pop();
-    const menuItems = document.querySelectorAll('.navbar__menu-item a');
+  const currentPage = window.location.pathname.split("/").pop();
+  const menuItems = document.querySelectorAll(".navbar__menu-item a");
 
-    menuItems.forEach(item => {
-        if (item.getAttribute('href') === currentPage) {
-            item.classList.add('active');
-        }
-    });
+  menuItems.forEach((item) => {
+    if (item.getAttribute("href") === currentPage) {
+      item.classList.add("active");
+    }
+  });
 }
 highlightCurrentPage();
-const style = document.createElement('style');
+const style = document.createElement("style");
 
 style.innerHTML = `
                   
@@ -243,5 +243,5 @@ style.innerHTML = `
 
 }
 
-`
+`;
 document.head.appendChild(style);

@@ -1,6 +1,6 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css");
 :root {
-  --font-family:  'Averia Serif Libre', serif;
+  --font-family: "Averia Serif Libre", serif;
   --earls-green: #afb937;
   --tamarind: #361f16;
   --atoll: #0d4b7a;
@@ -21,7 +21,6 @@ footer {
   flex-direction: column;
   justify-content: space-around;
   padding: 2rem;
-
 }
 
 .footer__container {
@@ -30,7 +29,7 @@ footer {
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  gap:1rem;
+  gap: 1rem;
   padding: 0 20px;
   margin: 0 4rem;
 }
@@ -39,8 +38,8 @@ footer {
   width: 150px;
   /* margin-bottom: 20px; */
 }
-.footer__nav h4{
-  margin-left:0.5rem
+.footer__nav h4 {
+  margin-left: 0.5rem;
 }
 .footer__content {
   display: flex;
@@ -50,12 +49,16 @@ footer {
   flex-wrap: wrap;
 }
 
-.footer__nav, .footer__contact, .footer__social {
+.footer__nav,
+.footer__contact,
+.footer__social {
   margin: 0 10px;
   min-width: 200px;
 }
 
-.footer__nav h4, .footer__contact h4, .footer__social h4 {
+.footer__nav h4,
+.footer__contact h4,
+.footer__social h4 {
   margin-bottom: 10px;
   font-size: 18px;
   text-transform: uppercase;
@@ -94,14 +97,16 @@ footer {
   color: #ffffff;
   font-size: 24px;
   text-decoration: none;
-  transition: color 0.3s, transform 0.3s;
+  transition:
+    color 0.3s,
+    transform 0.3s;
 }
 
 .footer__social .social-icons a:hover {
   color: #91c9ff;
   transform: scale(1.2);
 }
-.footer__social .social-icons img{
+.footer__social .social-icons img {
   height: 24px;
 }
 .footer__bottom {
@@ -114,15 +119,15 @@ footer {
   width: fit-content;
   text-align: left;
 }
-.contact-wrapper   {
+.contact-wrapper {
   display: flex;
   flex-direction: column;
   justify-content: left;
   align-items: left;
   align-content: flex-start;
   text-align: left;
-  margin-top:20px ;
-  gap:.5rem;
+  margin-top: 20px;
+  gap: 0.5rem;
 }
 .footer__contact a {
   color: #ffffff;
@@ -148,53 +153,58 @@ footer {
     margin-bottom: 20px;
   }
 } */
- @media screen and (min-width: 940px) {
-  .footer__container{
+@media screen and (min-width: 940px) {
+  .footer__container {
     margin: 4rem;
   }
-  
- }
- @media screen and (max-width: 940px) {
+}
+@media screen and (max-width: 940px) {
   .footer__logo {
-    width:100%;
+    width: 100%;
   }
   .footer__container {
     margin: 0 1rem;
   }
-  .footer__nav, .footer__contact, .footer__social {
+  .footer__nav,
+  .footer__contact,
+  .footer__social {
     margin: 0;
   }
-  
-
-  }
-  /* @media screen and (max-width: 650px) {
+}
+/* @media screen and (max-width: 650px) {
     
    
   } */
- 
+
 #insta {
-  color: #E1306C; /* Instagram color */
-  transition: color 0.3s, transform 0.3s;
+  color: #e1306c; /* Instagram color */
+  transition:
+    color 0.3s,
+    transform 0.3s;
 }
 
 #insta:hover {
-  color: #C13584; /* Darker Instagram color on hover */
+  color: #c13584; /* Darker Instagram color on hover */
   transform: scale(1.2);
 }
 
 #podcast {
-  color: #7289DA; /* Discord color */
-  transition: color 0.3s, transform 0.3s;
+  color: #7289da; /* Discord color */
+  transition:
+    color 0.3s,
+    transform 0.3s;
 }
 
 #podcast:hover {
-  color: #5A67D8; /* Darker podcast color on hover */
+  color: #5a67d8; /* Darker podcast color on hover */
   transform: scale(1.2);
 }
 
 #telegram {
   color: #0088cc; /* Telegram color */
-  transition: color 0.3s, transform 0.3s;
+  transition:
+    color 0.3s,
+    transform 0.3s;
 }
 
 #telegram:hover {

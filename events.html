@@ -1,19 +1,25 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Events</title>
-    <link rel="stylesheet" href="events/style.css">
-    <link rel="stylesheet" href="./components/navbar/navbar.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./components/footer/footer.css">
-</head>
+    <link rel="stylesheet" href="events/style.css" />
+    <link rel="stylesheet" href="./components/navbar/navbar.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./components/footer/footer.css" />
+  </head>
 
-<!-- 
+  <!-- 
 .magicpattern { 
   width: 100%;
   height: 100%;
@@ -24,84 +30,116 @@
 }
 -->
 
-
-<body>
+  <body>
     <div class="layout">
-          
-    <header>
-        
+      <header>
         <nav>
-            <div class="navbar-container ">
-                
-            </div>
-           
-            <script src="./components/navbar/navbar.js"></script>
+          <div class="navbar-container"></div>
 
+          <script src="./components/navbar/navbar.js"></script>
         </nav>
-    </header>  
-            <section class="hero-container">
-             
-                <div class="hero">
-
-                    <div class="hero__content">
-                        <h1 class = "typewriter">Activities</h1>
-                        <p class ="fade-in-on-view"><i>Explore events that inspire, connect, and empower. Be a part of our story.</i></p>
-                    </div>
-                        <!-- <div class="blob">
+      </header>
+      <section class="hero-container">
+        <div class="hero">
+          <div class="hero__content">
+            <h1 class="typewriter">Activities</h1>
+            <p class="fade-in-on-view">
+              <i
+                >Explore events that inspire, connect, and empower. Be a part of
+                our story.</i
+              >
+            </p>
+          </div>
+          <!-- <div class="blob">
                             
                         </div> -->
 
-                    <div class="hero__image "><img src="events/assets/group-photo2.webp" alt=""></div>
-                </div>
-                <img src="events/assets/blob4.png" alt="" class="blob">
+          <div class="hero__image">
+            <img src="events/assets/group-photo2.webp" alt="" />
+          </div>
+        </div>
+        <img src="events/assets/blob4.png" alt="" class="blob" />
 
+        <!-- bg imges -->
+        <img
+          class="clouds cloud1"
+          src="events/assets/cloud-twirl-2.png"
+          alt=""
+        />
+        <img
+          class="clouds cloud2"
+          src="events/assets/cloud-wisp-3.png"
+          alt=""
+        />
+        <img
+          class="clouds cloud3"
+          src=".events/assets/cloud-wisp-3-1.png"
+          alt=""
+        />
 
-                    <!-- bg imges -->
-                    <img class=" clouds cloud1" src="events/assets/cloud-twirl-2.png" alt="" >
-                    <img class="clouds cloud2" src="events/assets/cloud-wisp-3.png" alt="">
-                    <img class="clouds cloud3" src=".events/assets/cloud-wisp-3-1.png" alt="">
-           
-                <svg xmlns="http://www.w3.org/2000/svg">
-                    <defs>
-                      <filter id="goo">
-                        <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
-                        <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -8" result="goo" />
-                        <feBlend in="SourceGraphic" in2="goo" />
-                      </filter>
-                    </defs>
-                </svg>
-                 
-            </section>
-   
-    <main>
+        <svg xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <filter id="goo">
+              <feGaussianBlur
+                in="SourceGraphic"
+                stdDeviation="10"
+                result="blur"
+              />
+              <feColorMatrix
+                in="blur"
+                mode="matrix"
+                values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -8"
+                result="goo"
+              />
+              <feBlend in="SourceGraphic" in2="goo" />
+            </filter>
+          </defs>
+        </svg>
+      </section>
+
+      <main>
         <section class="events-container">
-        
-            <nav>
-                <ul class="event-list">
-                    <li class="event-list__item active" data-container="all-events">All</li>
-                    <li class="event-list__item" data-container="upcoming-events">Upcoming</li>
-                    <li class="event-list__item" data-container="past-events">Past</li>
-                    <li class="event-list__item" data-container="initiatives">Initiatives</li>
-                    <li class="event-list__item" data-container="newsletter">Newsletter</li>
-                    <li class="event-list__item" data-container="giveaways">Giveaways!</li>
-                </ul>
-            </nav>
-            <div class="cards-container active fade-in-on-view" id="all-events"></div>
-            <div class="cards-container fade-in-on-view" id="upcoming-events"></div>
-            <div class="cards-container fade-in-on-view" id="past-events"></div>
-            <div class="cards-container fade-in-on-view" id="newsletter"></div>
-            <div class="cards-container fade-in-on-view" id="initiatives"></div>
-            <div class="cards-container fade-in-on-view" id="giveaways"></div>
-
+          <nav>
+            <ul class="event-list">
+              <li class="event-list__item active" data-container="all-events">
+                All
+              </li>
+              <li class="event-list__item" data-container="upcoming-events">
+                Upcoming
+              </li>
+              <li class="event-list__item" data-container="past-events">
+                Past
+              </li>
+              <li class="event-list__item" data-container="initiatives">
+                Initiatives
+              </li>
+              <li class="event-list__item" data-container="newsletter">
+                Newsletter
+              </li>
+              <li class="event-list__item" data-container="giveaways">
+                Giveaways!
+              </li>
+            </ul>
+          </nav>
+          <div
+            class="cards-container active fade-in-on-view"
+            id="all-events"
+          ></div>
+          <div
+            class="cards-container fade-in-on-view"
+            id="upcoming-events"
+          ></div>
+          <div class="cards-container fade-in-on-view" id="past-events"></div>
+          <div class="cards-container fade-in-on-view" id="newsletter"></div>
+          <div class="cards-container fade-in-on-view" id="initiatives"></div>
+          <div class="cards-container fade-in-on-view" id="giveaways"></div>
         </section>
-    </main>
-    <div class="footer-container">
-        <script src ="./components/footer/footer.js"></script>
-    </div>
-
+      </main>
+      <div class="footer-container">
+        <script src="./components/footer/footer.js"></script>
+      </div>
     </div>
     <script src="events/eventList.js"></script>
     <script src="events/scripts.js"></script>
-
-</body>
+  </body>
 </html>

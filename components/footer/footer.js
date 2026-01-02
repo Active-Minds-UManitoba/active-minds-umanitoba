@@ -1,4 +1,4 @@
-const footer=`
+const footer = `
    <footer id = "contact">
         <div class="footer__container">
            
@@ -40,7 +40,7 @@ const footer=`
             <p>© 2024 All Rights Reserved</p>
         </div>
     </footer>`;
-document.addEventListener('DOMContentLoaded', () => {
-    const footerContainer = document.querySelector('.footer-container');
-    footerContainer.innerHTML = footer;
+document.addEventListener("DOMContentLoaded", () => {
+  const footerContainer = document.querySelector(".footer-container");
+  footerContainer.innerHTML = footer;
 });
